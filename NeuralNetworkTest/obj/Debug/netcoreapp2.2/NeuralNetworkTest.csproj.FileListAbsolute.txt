@@ -9,3 +9,14 @@ C:\Users\martijn\source\repos\NeuralNetworkTest\NeuralNetworkTest\obj\Debug\netc
 C:\Users\martijn\source\repos\NeuralNetworkTest\NeuralNetworkTest\obj\Debug\netcoreapp2.2\NeuralNetworkTest.AssemblyInfo.cs
 C:\Users\martijn\source\repos\NeuralNetworkTest\NeuralNetworkTest\obj\Debug\netcoreapp2.2\NeuralNetworkTest.dll
 C:\Users\martijn\source\repos\NeuralNetworkTest\NeuralNetworkTest\obj\Debug\netcoreapp2.2\NeuralNetworkTest.pdb
+C:\Users\martijn\Documents\GitHub\NeuralNetworkTest\NeuralNetworkTest\bin\Debug\netcoreapp2.2\NeuralNetworkTest.deps.json
+C:\Users\martijn\Documents\GitHub\NeuralNetworkTest\NeuralNetworkTest\bin\Debug\netcoreapp2.2\NeuralNetworkTest.runtimeconfig.json
+C:\Users\martijn\Documents\GitHub\NeuralNetworkTest\NeuralNetworkTest\bin\Debug\netcoreapp2.2\NeuralNetworkTest.runtimeconfig.dev.json
+C:\Users\martijn\Documents\GitHub\NeuralNetworkTest\NeuralNetworkTest\bin\Debug\netcoreapp2.2\NeuralNetworkTest.dll
+C:\Users\martijn\Documents\GitHub\NeuralNetworkTest\NeuralNetworkTest\bin\Debug\netcoreapp2.2\NeuralNetworkTest.pdb
+C:\Users\martijn\Documents\GitHub\NeuralNetworkTest\NeuralNetworkTest\obj\Debug\netcoreapp2.2\NeuralNetworkTest.csprojAssemblyReference.cache
+C:\Users\martijn\Documents\GitHub\NeuralNetworkTest\NeuralNetworkTest\obj\Debug\netcoreapp2.2\NeuralNetworkTest.csproj.CoreCompileInputs.cache
+C:\Users\martijn\Documents\GitHub\NeuralNetworkTest\NeuralNetworkTest\obj\Debug\netcoreapp2.2\NeuralNetworkTest.AssemblyInfoInputs.cache
+C:\Users\martijn\Documents\GitHub\NeuralNetworkTest\NeuralNetworkTest\obj\Debug\netcoreapp2.2\NeuralNetworkTest.AssemblyInfo.cs
+C:\Users\martijn\Documents\GitHub\NeuralNetworkTest\NeuralNetworkTest\obj\Debug\netcoreapp2.2\NeuralNetworkTest.dll
+C:\Users\martijn\Documents\GitHub\NeuralNetworkTest\NeuralNetworkTest\obj\Debug\netcoreapp2.2\NeuralNetworkTest.pdb

@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\martijn\\source\\repos\\NeuralNetworkTest\\NeuralNetworkTest\\NeuralNetworkTest.csproj",
+      "projectUniqueName": "C:\\Users\\martijn\\Documents\\GitHub\\NeuralNetworkTest\\NeuralNetworkTest\\NeuralNetworkTest.csproj",
       "projectName": "NeuralNetworkTest",
-      "projectPath": "C:\\Users\\martijn\\source\\repos\\NeuralNetworkTest\\NeuralNetworkTest\\NeuralNetworkTest.csproj",
+      "projectPath": "C:\\Users\\martijn\\Documents\\GitHub\\NeuralNetworkTest\\NeuralNetworkTest\\NeuralNetworkTest.csproj",
       "packagesPath": "C:\\Users\\martijn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\martijn\\source\\repos\\NeuralNetworkTest\\NeuralNetworkTest\\obj\\",
+      "outputPath": "C:\\Users\\martijn\\Documents\\GitHub\\NeuralNetworkTest\\NeuralNetworkTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

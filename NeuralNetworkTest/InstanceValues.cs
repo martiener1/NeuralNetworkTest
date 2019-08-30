@@ -51,5 +51,31 @@ namespace NeuralNetworkTest
             InstanceValues instanceValues = new InstanceValues(layerSizes, inputs, nodeBiases, connectionWeights);
             return instanceValues;
         }
+
+        public static InstanceValues CreateRandomInstanceValues(int[] layerSizes, double[] inputs, Random random)
+        {
+            int nodeBiasAmount = 0;
+            int connectionAmount = 0;
+
+            for (int i = 1; i < layerSizes.Length; i++)
+            {
+                nodeBiasAmount += layerSizes[i];
+                connectionAmount += layerSizes[i - 1] * layerSizes[i];
+            }
+
+            double[] nodeBiases = new double[nodeBiasAmount];
+            for (int i = 0; i < nodeBiasAmount; i++)
+            {
+                nodeBiases[i] = random.NextDouble();
+            }
+            double[] connectionWeights = new double[connectionAmount];
+            for (int i = 0; i< connectionAmount; i++)
+            {
+                connectionWeights[i] = random.NextDouble();
+            }
+
+            InstanceValues instanceValues = new InstanceValues(layerSizes, inputs, nodeBiases, connectionWeights);
+            return instanceValues;
+        }
     }
 }

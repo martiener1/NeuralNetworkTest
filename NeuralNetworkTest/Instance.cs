@@ -25,15 +25,15 @@ namespace NeuralNetworkTest
                 currentNodeValues[i] = inputs[i];
             }
 
-            for (int i = 0; i < layerSizes.Length - 1; i++)
+            for (int i = 1; i < layerSizes.Length; i++)
             {
                 // for every layer of nodes except the input layer
-                int amountOfNewNodes = layerSizes[i + 1];
+                int amountOfNewNodes = layerSizes[i];
                 double[] newNodeBiases = new double[amountOfNewNodes];
                 Array.Copy(nodeBiases, nodeBiasCounter, newNodeBiases, 0, amountOfNewNodes);
                 nodeBiasCounter += amountOfNewNodes;
 
-                int amountOfConnections = layerSizes[i] * layerSizes[i + 1];
+                int amountOfConnections = layerSizes[i-1] * layerSizes[i];
                 double[] connectionWeightsForThisLayer = new double[amountOfConnections];
                 Array.Copy(connectionWeights, connectionWeightCounter, connectionWeightsForThisLayer, 0, amountOfConnections);
                 connectionWeightCounter += amountOfConnections;
