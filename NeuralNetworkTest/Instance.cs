@@ -60,9 +60,22 @@ namespace NeuralNetworkTest
                     double previousNodeValue = previousNodes[j];
                     value += previousNodeValue * connectionWeights[connectionWeightsCounter++];
                 }
-                newNodeValues[i] = value;
+                newNodeValues[i] = ActivationFunction(value);
             }
             return newNodeValues;
+        }
+
+        private static double ActivationFunction(double value)
+        {
+            // this will be a simpler and faster method than the sigmoid function, but the results will be close
+            return 1d / (1d + Exp(-value));
+        }
+
+        private static double Exp(double val)
+        {
+            // approximation of e^x
+            long tmp = (long)(1512775 * val + 1072632447);
+            return BitConverter.Int64BitsToDouble(tmp << 32);
         }
     }
 }
