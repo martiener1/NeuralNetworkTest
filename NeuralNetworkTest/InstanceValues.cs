@@ -32,6 +32,26 @@ namespace NeuralNetworkTest
             this.inputs = inputValues;
         }
 
+        public InstanceValues Reproduce(int WeightsToChange, double maxChange, Random random)
+        {
+            InstanceValues returnValues = new InstanceValues(this);
+            int nodeAmount = nodeBiases.Length;
+            int connectionAmount = connectionWeights.Length;
+            for (int i = 0; i < WeightsToChange; i++)
+            {
+                int weightToChange = random.Next(nodeAmount+connectionAmount);
+                if (weightToChange < nodeAmount)
+                {
+                    returnValues.nodeBiases[weightToChange] += (random.NextDouble() - 0.5d) * 2 * maxChange;
+                }
+                else
+                {
+                    returnValues.connectionWeights[weightToChange - nodeAmount] += (random.NextDouble() - 0.5d) * 2 * maxChange;
+                }
+            }
+            return returnValues;
+        }
+
         public static InstanceValues CreateBaseInstanceValues(int[] layerSizes, double[] inputs, double nodeBaseBias, double connectionBaseWeight)
         {
             int nodeBiasAmount = 0;
@@ -77,5 +97,6 @@ namespace NeuralNetworkTest
             InstanceValues instanceValues = new InstanceValues(layerSizes, inputs, nodeBiases, connectionWeights);
             return instanceValues;
         }
+        
     }
 }
